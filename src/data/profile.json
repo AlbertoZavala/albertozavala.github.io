@@ -1,0 +1,336 @@
+{
+  "general": {
+    "name": "Jose Alberto Zavala Flores",
+    "location": "Hermosillo, Sonora, México",
+    "email": "jose.alberto.zavala.flores@gmail.com",
+    "phone": "+52 6621 26 08 17",
+    "linkedin": "https://www.linkedin.com/in/jose-alberto-zavala-flores",
+    "github": "https://github.com/albertozavala"
+  },
+
+  "headline": {
+    "es": "Desarrollador de Software",
+    "en": "Software Developer"
+  },
+
+  "about": {
+    "summary": {
+      "es": "Desarrollador de software con experiencia desde 2017 en aplicaciones móviles, APIs, sistemas administrativos y soluciones empresariales. Especializado en C#, .NET Framework, SQL Server y React Native. Me centro en desarrollar software estable, seguro y escalable, aplicando buenas prácticas, arquitectura modular y alineación directa a los objetivos del negocio.",
+      "en": "Software developer with experience since 2017 in mobile applications, APIs, administrative systems and enterprise solutions. Specialized in C#, .NET Framework, SQL Server and React Native. I focus on building stable, secure and scalable software, applying good practices, modular architecture and strong alignment with business objectives."
+    },
+
+    "highlights": [
+      {
+        "label": { "es": "Experiencia", "en": "Experience" },
+        "value": { "es": "7+ años", "en": "7+ years" },
+        "showInWeb": true,
+        "showInCV": false
+      },
+      {
+        "label": { "es": "Proyectos", "en": "Projects" },
+        "value": { "es": "Aplicaciones y APIs empresariales", "en": "Enterprise apps and APIs" },
+        "showInWeb": true,
+        "showInCV": false
+      }
+    ]
+  },
+
+  "skills": {
+    "languages": ["C#", "JavaScript", "TypeScript"],
+    "databases": ["Microsoft SQL Server"],
+    "frameworks": ["React Native", "ASP.NET MVC", "Windows Forms", "DevExpress", ".NET Framework"],
+    "tools": ["Git", "JIRA", "IIS"],
+    "areas": {
+      "es": [
+        "Diseño de APIs",
+        "Aplicaciones móviles",
+        "Sistemas administrativos",
+        "Integración backend–frontend",
+        "Arquitectura modular"
+      ],
+      "en": [
+        "API design",
+        "Mobile applications",
+        "Administrative systems",
+        "Backend–frontend integration",
+        "Modular architecture"
+      ]
+    },
+
+    "softSkills": {
+      "es": [
+        "Resolución de problemas",
+        "Adaptabilidad",
+        "Comunicación efectiva",
+        "Trabajo en equipo",
+        "Pensamiento crítico",
+        "Gestión del tiempo"
+      ],
+      "en": [
+        "Problem solving",
+        "Adaptability",
+        "Effective communication",
+        "Teamwork",
+        "Critical thinking",
+        "Time management"
+      ]
+    }
+  },
+
+  "experience": [
+    {
+      "company": "Kari Gestión Residencial",
+      "role": { "es": "Desarrollador de Software", "en": "Software Developer" },
+      "start": "2024",
+      "end": "Actual",
+      "city": { "es": "Hermosillo, Sonora", "en": "Hermosillo, Sonora, Mexico" },
+      "bullets": {
+        "es": [
+          "Implementación y desarrollo de la API de la empresa desde cero para comunicación segura con la aplicación móvil.",
+          "Desarrollo de la aplicación móvil en React Native, integrando accesos por código QR, pagos, usuarios y módulos residenciales.",
+          "Diseño y participación en la arquitectura del software, creando un sistema robusto sin afectar la experiencia del usuario."
+        ],
+        "en": [
+          "Implemented and developed the company’s API from scratch to enable secure communication with the mobile application.",
+          "Developed the mobile application using React Native, integrating QR access, payments, users and residential modules.",
+          "Participated in software architecture design, creating a robust system without compromising user experience."
+        ]
+      },
+      "showInWeb": true,
+      "showInCV": true
+    },
+
+    {
+      "company": "Liquidez Corporativa / EFIM",
+      "role": { "es": "Desarrollador de Software", "en": "Software Developer" },
+      "start": "2018",
+      "end": "Actual",
+      "city": { "es": "Hermosillo, Sonora", "en": "Hermosillo, Sonora, Mexico" },
+      "bullets": {
+        "es": [
+          "Desarrollo de aplicaciones Windows Forms y ASP.NET MVC, proporcionando herramientas útiles a usuarios internos y clientes.",
+          "Desarrollo con DevExpress para sistemas administrativos empresariales.",
+          "Administración básica-intermedia de bases de datos en SQL Server.",
+          "Implementación de servidor de tokens RSA para aplicaciones web, reforzando seguridad en autenticación.",
+          "Implementación de firma electrónica de documentos, reduciendo costos de envío en un 90%.",
+          "Desarrollo de la app móvil EFIM en React Native para autorizaciones y operaciones internas.",
+          "Implementación del módulo de token RSA digital, reduciendo costos de hardware en un 50%.",
+          "Desarrollo de la API EFIM para comunicación segura entre app móvil y backend.",
+          "Implementación de módulos de gestión de crédito con cálculos automáticos y flexibilidad en tasas."
+        ],
+        "en": [
+          "Developed Windows Forms and ASP.NET MVC applications, providing useful tools for internal users and clients.",
+          "Developed administrative systems using DevExpress.",
+          "Performed basic–intermediate SQL Server administration.",
+          "Implemented RSA token server for web applications, improving authentication security.",
+          "Implemented electronic document signing, reducing shipping costs by 90%.",
+          "Developed the EFIM mobile app using React Native for authorization and internal operations.",
+          "Implemented digital RSA token module, reducing hardware token acquisition costs by 50%.",
+          "Developed the EFIM API for secure communication between mobile app and backend.",
+          "Implemented credit management modules with automatic calculations and flexible interest structures."
+        ]
+      },
+      "showInWeb": true,
+      "showInCV": true
+    },
+
+    {
+      "company": "Grupo Tress Internacional",
+      "role": { "es": "Quality Assurance", "en": "Quality Assurance" },
+      "start": "2016",
+      "end": "2018",
+      "city": { "es": "Hermosillo, Sonora", "en": "Hermosillo, Sonora, Mexico" },
+      "bullets": {
+        "es": [
+          "Implementación de automatización de pruebas con C# y Selenium.",
+          "Creación y ejecución de casos de prueba para identificar mejoras en módulos de nómina y recursos humanos."
+        ],
+        "en": [
+          "Implemented test automation using C# and Selenium.",
+          "Created and executed test cases to identify improvement opportunities in HR and payroll modules."
+        ]
+      },
+      "showInWeb": false,
+      "showInCV": true
+    },
+
+    {
+      "company": "Caffenio",
+      "role": { "es": "Desarrollador de Software", "en": "Software Developer" },
+      "start": "2017",
+      "end": "2018",
+      "city": { "es": "Hermosillo, Sonora", "en": "Hermosillo, Sonora, Mexico" },
+      "bullets": {
+        "es": [
+          "Desarrollo de aplicaciones web con ASP.NET MVC usando C# y JavaScript.",
+          "Soporte y mantenimiento de bases de datos SQL Server.",
+          "Levantamiento de requerimientos e implementación de módulos para clientes internos."
+        ],
+        "en": [
+          "Developed web applications using ASP.NET MVC with C# and JavaScript.",
+          "Supported and maintained SQL Server databases.",
+          "Gathered requirements and implemented modules for internal clients."
+        ]
+      },
+      "showInWeb": true,
+      "showInCV": true
+    }
+  ],
+
+  "projects": [
+    {
+      "name": { "es": "Aplicación Móvil EFIM", "en": "EFIM Mobile App" },
+      "description": {
+        "es": "Aplicación móvil desarrollada en React Native que permite autorizaciones con token RSA y firma digital de documentos.",
+        "en": "Mobile application built in React Native enabling RSA token authorization and digital document signing."
+      },
+      "url": "https://apps.apple.com/mx/app/efim/id6636466144",
+      "showInWeb": true,
+      "showInCV": true
+    },
+    {
+      "name": { "es": "API EFIM", "en": "EFIM API" },
+      "description": {
+        "es": "API desarrollada desde cero para comunicación segura entre la aplicación móvil EFIM y el backend.",
+        "en": "API developed from scratch for secure communication between the EFIM mobile app and backend."
+      },
+      "showInWeb": true,
+      "showInCV": true
+    },
+    {
+      "name": { "es": "Sitio Web EFIM", "en": "EFIM Web Portal" },
+      "description": {
+        "es": "Plataforma web con firma digital RSA, revisión de créditos y validación de facturas.",
+        "en": "Web platform with RSA digital signing, credit review and invoice validation."
+      },
+      "url": "https://www.portalefim.com/",
+      "showInWeb": true,
+      "showInCV": true
+    },
+    {
+      "name": { "es": "Módulo de Crédito Amortizado", "en": "Amortized Credit Module" },
+      "description": {
+        "es": "Módulo que gestiona créditos amortizados, cálculos automáticos y generación de reportes.",
+        "en": "Module that manages amortized loans, automatic calculations and report generation."
+      },
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": { "es": "API KARI", "en": "KARI API" },
+      "description": {
+        "es": "API para comunicación entre app móvil KARI y backend, desarrollada desde cero.",
+        "en": "API for communication between the KARI mobile app and backend, developed from scratch."
+      },
+      "showInWeb": true,
+      "showInCV": true
+    },
+    {
+      "name": { "es": "Aplicación Móvil KARI", "en": "KARI Mobile App" },
+      "description": {
+        "es": "Aplicación móvil para accesos QR, notificaciones, votaciones, gestión residencial y más.",
+        "en": "Mobile application for QR access, notifications, voting and residential management."
+      },
+      "showInWeb": true,
+      "showInCV": true
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": { "es": "Microsoft Certified: Azure Fundamentals", "en": "Microsoft Certified: Azure Fundamentals" },
+      "url": "https://www.credly.com/badges/e98a6ad6-83e0-4e34-bdd2-49938a1233d7",
+      "date": "2022",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Administración de Riesgos (UAIR)",
+        "en": "Risk Management (UAIR)"
+      },
+      "date": "2021",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Scrum Fundamentals Certified",
+        "en": "Scrum Fundamentals Certified"
+      },
+      "url": "http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumFundamentalsCertified-JOSEALBERTOZAVALAFLORES-640253.pdf",
+      "date": "2018",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Administering SQL Server 2014 Databases (20462)",
+        "en": "Administering SQL Server 2014 Databases (20462)"
+      },
+      "date": "2017",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Querying Microsoft SQL Server (20461)",
+        "en": "Querying Microsoft SQL Server (20461)"
+      },
+      "date": "2017",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Fundamentos de Android (Coursera)",
+        "en": "Android Fundamentals (Coursera)"
+      },
+      "date": "2016",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "name": {
+        "es": "Java para Aplicaciones Android (Coursera)",
+        "en": "Java for Android Applications (Coursera)"
+      },
+      "date": "2016",
+      "showInWeb": false,
+      "showInCV": true
+    }
+  ],
+
+  "education": [
+    {
+      "degree": {
+        "es": "Ingeniería en Sistemas de Información",
+        "en": "Information Systems Engineering"
+      },
+      "institution": {
+        "es": "Universidad Abierta y a Distancia de México",
+        "en": "Universidad Abierta y a Distancia de México"
+      },
+      "status": { "es": "En curso (4to semestre)", "en": "In progress (4th semester)" },
+      "start": "2023",
+      "end": "Actual",
+      "showInWeb": false,
+      "showInCV": true
+    },
+    {
+      "degree": {
+        "es": "Ingeniería en Sistemas de Información (Estudios incompletos)",
+        "en": "Information Systems Engineering (Incomplete studies)"
+      },
+      "institution": { "es": "Universidad de Sonora", "en": "Universidad de Sonora" },
+      "status": {
+        "es": "Enfocado en ingresar al mercado laboral",
+        "en": "Focused on entering the workforce"
+      },
+      "start": "2003",
+      "end": "2006",
+      "showInWeb": false,
+      "showInCV": true
+    }
+  ]
+}
