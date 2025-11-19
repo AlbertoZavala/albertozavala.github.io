@@ -351,7 +351,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
         )}
 
         {/* EDUCACIÓN (AL FINAL) */}
-        {education.length > 0 && (
+        {/* {education.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t.education}</Text>
 
@@ -370,7 +370,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
               </View>
             ))}
           </View>
-        )}
+        )} */}
       </Page>
     </Document>
   );
