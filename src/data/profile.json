@@ -315,7 +315,7 @@
       "start": "2023",
       "end": "Actual",
       "showInWeb": false,
-      "showInCV": true
+      "showInCV": false
     },
     {
       "degree": {
@@ -330,7 +330,7 @@
       "start": "2003",
       "end": "2006",
       "showInWeb": false,
-      "showInCV": true
+      "showInCV": false
     }
   ]
 }
