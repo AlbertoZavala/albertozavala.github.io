@@ -216,9 +216,11 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
   const projects = (profile.projects as ProjectEntry[]).filter(
     (p) => p.showInCV
   );
+  
   const education = (profile.education as EducationEntry[]).filter(
     (e) => e.showInCV
   );
+  
   const certifications = (profile.certifications as CertificationEntry[]).filter(
     (c) => c.showInCV
   );
