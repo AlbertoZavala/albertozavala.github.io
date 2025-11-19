@@ -1,4 +1,3 @@
-// src/sections/Projects/ProjectsSection.tsx
 import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import profile from "../../data/profile.json";

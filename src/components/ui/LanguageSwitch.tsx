@@ -1,4 +1,3 @@
-// src/components/ui/LanguageSwitch.tsx
 import { useLanguage } from "../../context/LanguageContext";
 
 export const LanguageSwitch = () => {

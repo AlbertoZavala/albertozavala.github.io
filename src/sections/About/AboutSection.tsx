@@ -2,7 +2,6 @@ import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import profile from "../../data/profile.json";
 
-// Tipos locales para lo que usamos aquí
 type Lang = "es" | "en";
 
 interface HighlightText {
@@ -18,7 +17,7 @@ interface Highlight {
 }
 
 export const AboutSection: React.FC = () => {
-  const { lang } = useLanguage(); // "es" | "en"
+  const { lang } = useLanguage();
 
   const summary = profile.about.summary[lang as Lang];
 

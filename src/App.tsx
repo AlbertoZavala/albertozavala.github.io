@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from "react";
 import { HeaderNav } from "./components/layout/HeaderNav";
 import { Footer } from "./components/layout/Footer";
@@ -7,7 +6,7 @@ import { SkillsSection } from "./sections/Skills/SkillsSection";
 import { TechStackSection } from "./sections/TechStack/TechStackSection";
 import { AboutSection } from "./sections/About/AboutSection";
 import { ResumeSection } from "./sections/Resume/ResumeSection";
-import { ValueSection } from "./sections/Value/ValueSection";   // 👈 nuevo
+import { ValueSection } from "./sections/Value/ValueSection"; 
 import { ProjectsSection } from "./sections/Projects/ProjectsSection";
 import { ContactSection } from "./sections/Contact/ContactSection";
 

@@ -1,12 +1,8 @@
-// src/components/layout/HeaderNav.tsx
 import React, { useState } from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import { useTheme } from "../../context/ThemeContext";
 import { DownloadCV } from "../ui/DownloadCV";
 import { LanguageSwitch } from "../ui/LanguageSwitch";
-//import profileJson from "../../data/profile.json";
-
-
 
 const navTexts = {
   es: {
@@ -52,7 +48,7 @@ export const HeaderNav: React.FC = () => {
 
   return (
     <>
-      {/* HEADER */}
+      {/* Header */}
       <header
         style={{
           position: "sticky",
@@ -132,7 +128,7 @@ export const HeaderNav: React.FC = () => {
               {theme === "light" ? "🌙" : "☀️"}
             </button>
 
-            {/* BOTÓN HAMBURGUESA MOBILE */}
+            {/* Botón hamburguesa móvil */}
             <button
               className="nav-mobile-button"
               onClick={() => setIsOpen(true)}
@@ -152,7 +148,7 @@ export const HeaderNav: React.FC = () => {
         </nav>
       </header>
 
-      {/* MENU MOBILE */}
+      {/* Menú móvil */}
       {isOpen && (
         <div
           style={{
@@ -207,7 +203,7 @@ export const HeaderNav: React.FC = () => {
         </div>
       )}
 
-      {/* Animación simple */}
+      {/* Animación */}
       <style>
         {`
           @keyframes slideIn {
@@ -215,7 +211,7 @@ export const HeaderNav: React.FC = () => {
             to { transform: translateX(0); }
           }
 
-          /* Ocultar menú desktop en mobile */
+          /* Ocultar menú desktop en móvil */
           @media (max-width: 768px) {
             .nav-desktop {
               display: none !important;

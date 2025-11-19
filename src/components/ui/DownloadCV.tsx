@@ -4,7 +4,7 @@ import { CvDocument } from "../../sections/pdf/CvDocument";
 import { useLanguage } from "../../context/LanguageContext";
 
 export const DownloadCV: React.FC = () => {
-  const { lang } = useLanguage(); // "es" | "en"
+  const { lang } = useLanguage();
 
   const fileName =
     lang === "es"

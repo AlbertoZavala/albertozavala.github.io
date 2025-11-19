@@ -1,4 +1,3 @@
-// src/pdf/CvDocument.tsx
 import React from "react";
 import {
   Document,
@@ -82,7 +81,7 @@ interface CertificationEntry {
   showInWeb: boolean;
 }
 
-// --- SKILLS (solo lo que usamos aquí) ---
+// --- SKILLS ---
 interface SoftSkillsBlock {
   es: string[];
   en: string[];
@@ -245,7 +244,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
   return (
     <Document>
       <Page size="A4" style={styles.page}>
-        {/* HEADER */}
+        {/* Header */}
         <View style={styles.headerContainer}>
           <Text style={styles.headerName}>{general.name}</Text>
           <Text style={styles.headerHeadline}>{headline}</Text>
@@ -267,13 +266,13 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
           )}
         </View>
 
-        {/* PERFIL PROFESIONAL */}
+        {/* Perfil Profesional */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t.about}</Text>
           <Text style={styles.paragraph}>{aboutSummary}</Text>
         </View>
 
-        {/* SOFT SKILLS */}
+        {/* Soft Skills */}
         {softSkills.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t.softSkills}</Text>
@@ -287,7 +286,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
           </View>
         )}
 
-        {/* EXPERIENCIA */}
+        {/* Experiencia */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t.experience}</Text>
 
@@ -319,7 +318,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
           ))}
         </View>
 
-        {/* PROYECTOS */}
+        {/* Proyectos */}
         {projects.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t.projects}</Text>
@@ -338,7 +337,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
           </View>
         )}
 
-        {/* CERTIFICACIONES Y CURSOS */}
+        {/* Certificaciones y Cursos */}
         {certifications.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t.certifications}</Text>
@@ -352,7 +351,7 @@ export const CvDocument: React.FC<CvDocumentProps> = ({
           </View>
         )}
 
-        {/* EDUCACIÓN (AL FINAL) */}
+        {/* Educación */}
         {/* {education.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t.education}</Text>

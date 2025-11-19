@@ -1,4 +1,3 @@
-// src/sections/Home/HomeSection.tsx
 import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import avatar from "../../images/jose-zavala-avatar.png";

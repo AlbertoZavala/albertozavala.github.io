@@ -1,4 +1,3 @@
-// src/sections/TechStack/TechStackSection.tsx
 import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 import profile from "../../data/profile.json";

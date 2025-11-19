@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import { LanguageProvider } from "./context/LanguageContext";
 import { ThemeProvider } from "./context/ThemeContext";
 
-// CSS globales del template original + tus CSS
 import "./css/normalize.css";
 import "./css/bootstrap.css";
 import "./css/animate.css";

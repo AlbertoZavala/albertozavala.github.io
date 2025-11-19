@@ -1261,7 +1261,7 @@
 	100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); transform: translateZ(0) translateX(0); }
 }
 
-/* animation delay classes */
+/* animation */
 
 .pt-page-delay100 {
 	-webkit-animation-delay: .1s;
